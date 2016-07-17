@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>local-kapinos</groupId>
 	<version>0.0.1-SNAPSHOT</version>
-	<artifactId>ejb-tutorials-point</artifactId>
+	<artifactId>a002-ejb-news-app</artifactId>
 	
 	<build>
 		<plugins>
@@ -26,4 +26,6 @@
 		</plugins>
 	</build>
 
+	<description>https://netbeans.org/kb/docs/javaee/javaee-entapp-ejb.html</description>
+	<packaging>pom</packaging>
 </project>
