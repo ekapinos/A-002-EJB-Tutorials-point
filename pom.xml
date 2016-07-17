@@ -4,6 +4,14 @@
 	<groupId>local-kapinos</groupId>
 	<version>0.0.1-SNAPSHOT</version>
 	<artifactId>a002-ejb-news-app</artifactId>
+
+	<description>https://netbeans.org/kb/docs/javaee/javaee-entapp-ejb.html</description>
+	<packaging>pom</packaging>
+	<modules>
+		<module>a002-ejb-news-app-web</module>
+		<module>a002-ejb-news-app-ejb</module>
+		<module>a002-ejb-news-app-ear</module>
+	</modules>
 	
 	<build>
 		<plugins>
@@ -26,6 +34,4 @@
 		</plugins>
 	</build>
 
-	<description>https://netbeans.org/kb/docs/javaee/javaee-entapp-ejb.html</description>
-	<packaging>pom</packaging>
 </project>
