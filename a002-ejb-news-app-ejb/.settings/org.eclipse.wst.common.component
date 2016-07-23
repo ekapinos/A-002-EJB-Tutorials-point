@@ -3,5 +3,7 @@
         <wb-resource deploy-path="/" source-path="/src/main/resources" tag="defaultRootSource"/>
         <wb-resource deploy-path="/" source-path="/src/main/java"/>
         <property name="java-output-path" value="/a002-ejb-news-app-ejb/target/classes"/>
+        <property name="ClientProject" value="a002-ejb-news-app-ejbClient"/>
+        <property name="ClientJARURI" value="a002-ejb-news-app-ejbClient.jar"/>
     </wb-module>
 </project-modules>

@@ -7,4 +7,18 @@
   </parent>
   <artifactId>a002-ejb-news-app-ear</artifactId>
   <packaging>ear</packaging>
+  <dependencies>
+  	<dependency>
+  		<groupId>local-kapinos</groupId>
+  		<artifactId>a002-ejb-news-app-ejb</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  		<type>ejb</type>
+  	</dependency>
+  	<dependency>
+  		<groupId>local-kapinos</groupId>
+  		<artifactId>a002-ejb-news-app-web</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  		<type>war</type>
+  	</dependency>
+  </dependencies>
 </project>
