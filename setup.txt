@@ -1,0 +1,14 @@
+a002-ejb-news-app
+
+Original URL: https://netbeans.org/kb/docs/javaee/javaee-entapp-ejb.html
+Setup:
+ - Install Glassfish-4.1.1
+ 
+ - Start default Glassfish embedded DB (default name is 'sun-appserv-samples')s: 
+   asadmin> start-database
+   
+ - compile sources with Maven: 
+   $> mvn install
+   
+ - Deploy 'ear' file. Default JTA DB will be used.
+ 

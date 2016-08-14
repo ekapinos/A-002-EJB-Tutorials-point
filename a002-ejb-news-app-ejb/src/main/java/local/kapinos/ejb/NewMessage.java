@@ -1,4 +1,4 @@
-package local.kapinos.model;
+package local.kapinos.ejb;
 
 import javax.annotation.Resource;
 import javax.ejb.ActivationConfigProperty;
@@ -8,12 +8,12 @@ import javax.jms.JMSException;
 import javax.jms.Message;
 import javax.jms.MessageListener;
 import javax.jms.ObjectMessage;
-import javax.jms.JMSDestinationDefinitions;
-import javax.jms.JMSDestinationDefinition;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 
-@MessageDriven(mappedName = "jms/NewMessage", activationConfig = {
+import local.kapinos.jpa.NewsEntity;
+
+@MessageDriven(mappedName = "java:app/jms/NewMessage", activationConfig = {
 		@ActivationConfigProperty(propertyName = "acknowledgeMode", propertyValue = "Auto-acknowledge"),
 		@ActivationConfigProperty(propertyName = "destinationType", propertyValue = "javax.jms.Queue") })
 public class NewMessage implements MessageListener {

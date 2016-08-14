@@ -1,4 +1,4 @@
-package local.kapinos.model;
+package local.kapinos.jpa;
 
 import java.io.Serializable;
 import javax.persistence.*;

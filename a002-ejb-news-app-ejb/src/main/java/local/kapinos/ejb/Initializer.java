@@ -1,4 +1,4 @@
-package local.kapinos;
+package local.kapinos.ejb;
 
 import javax.annotation.Resource;
 import javax.ejb.Singleton;
@@ -7,6 +7,9 @@ import javax.jms.JMSDestinationDefinition;
 import javax.jms.JMSDestinationDefinitions;
 import javax.jms.Queue;
 
+/* 
+ * Unfortunately doesn't work
+ *
 @JMSDestinationDefinitions(
         value = {
             @JMSDestinationDefinition(
@@ -20,7 +23,8 @@ import javax.jms.Queue;
                     destinationName = "duke-topic"
             )
         }
-)
+)*/
+
 @Startup
 @Singleton
 public class Initializer {
