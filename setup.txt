@@ -10,5 +10,5 @@ Setup:
  - compile sources with Maven: 
    $> mvn install
    
- - Deploy 'ear' file. Default JTA DB will be used.
+ - Deploy 'ear' file.
  
